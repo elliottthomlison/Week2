@@ -11,6 +11,9 @@
   "dependencies": {
     "request": "^2.88.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "mochai": "^0.2.5"
+  },
   "description": ""
 }
