@@ -1,6 +1,6 @@
 //Superclass
 class Person {
-    constructor(name, quirkyFact) {
+    constructor(name, quirkyFact, age) {
         this.name = name;
         this.quirkyFact = quirkyFact;
         this.age = age;
@@ -33,8 +33,10 @@ class Student extends Person {
 
 //driver code
 
-const bob = new Mentor('Bob Ross', 'I like mountains way too much');
-console.log(bob.bio());
+// const bob = new Mentor('Bob Ross', 'I like mountains way too much', '10');
+const dad = new Mentor('Bob Ross', 'I like mountains way too much', '10');
+
+console.log(dad.bio());
 
 
 // goOnShift() {
